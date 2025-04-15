@@ -38,14 +38,14 @@ export function ContactSection() {
               <Mail className="h-6 w-6 text-primary" />
               <div>
                 <h3 className="font-semibold">Email</h3>
-                <p className="text-muted-foreground">contacto@latiendasecreta.com</p>
+                <p className="text-muted-foreground">liliethramirez91@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
               <Phone className="h-6 w-6 text-primary" />
               <div>
                 <h3 className="font-semibold">Teléfono</h3>
-                <p className="text-muted-foreground">+34 123 456 789</p>
+                <p className="text-muted-foreground">+54 11 3759-6135</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
@@ -53,7 +53,7 @@ export function ContactSection() {
               <div>
                 <h3 className="font-semibold">Dirección</h3>
                 <p className="text-muted-foreground">
-                  Calle Secreta 123, Madrid, España
+                  Mendoza, Buenos Aires, Argentina
                 </p>
               </div>
             </div>
