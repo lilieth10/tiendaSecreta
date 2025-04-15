@@ -27,8 +27,8 @@ Una elegante tienda en línea construida con Next.js 14, TypeScript y Tailwind C
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/tienda-secreta.git
-cd tienda-secreta
+git clone https://github.com/liliethramirez/tiendaSecreta.git
+cd tiendaSecreta
 ```
 
 2. Instala las dependencias:
@@ -50,21 +50,33 @@ yarn dev
 ## 📁 Estructura del Proyecto
 
 ```
-tienda-secreta/
+tiendaSecreta/
 ├── app/                    # Rutas y páginas de la aplicación
 │   ├── productos/          # Páginas de productos
 │   ├── checkout/           # Página de checkout
+│   ├── contacto/           # Página de contacto
 │   └── layout.tsx          # Layout principal
 ├── components/             # Componentes reutilizables
 │   ├── ui/                 # Componentes de UI
 │   ├── product-card.tsx    # Tarjeta de producto
-│   └── cart-sheet.tsx      # Panel del carrito
+│   ├── cart-sheet.tsx      # Panel del carrito
+│   ├── contact-section.tsx # Sección de contacto
+│   ├── featured-products.tsx # Productos destacados
+│   ├── hero.tsx           # Hero section
+│   ├── navbar.tsx         # Barra de navegación
+│   ├── footer.tsx         # Pie de página
+│   └── theme-provider.tsx # Proveedor de tema
+├── hooks/                  # Custom hooks
 ├── lib/                    # Utilidades y configuraciones
-│   ├── data/              # Datos de productos
-│   └── store/             # Estado global
 ├── public/                 # Archivos estáticos
 │   └── images/            # Imágenes de productos
-└── styles/                 # Estilos globales
+├── .next/                  # Carpeta de build de Next.js
+├── node_modules/          # Dependencias
+├── package.json           # Configuración del proyecto
+├── tsconfig.json          # Configuración de TypeScript
+├── tailwind.config.ts     # Configuración de Tailwind
+├── next.config.js         # Configuración de Next.js
+└── README.md              # Documentación
 ```
 
 ## 🎨 Diseño
