@@ -27,7 +27,7 @@ Una elegante tienda en línea construida con Next.js 14, TypeScript y Tailwind C
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/liliethramirez/tiendaSecreta.git
+git clone https://github.com/liliet10/tiendaSecreta.git
 cd tiendaSecreta
 ```
 
@@ -109,6 +109,37 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 - [Framer Motion](https://www.framer.com/motion/) por las animaciones
 - [Zustand](https://github.com/pmndrs/zustand) por la gestión de estado
 
+## 🤔 Decisiones Técnicas
+
+- **Next.js 14 (App Router):** Elegido por su rendimiento mejorado, Server Components y las últimas características de React. El App Router facilita la organización de rutas y layouts.
+- **TypeScript:** Para mejorar la mantenibilidad del código, detectar errores en tiempo de compilación y mejorar la experiencia de desarrollo.
+- **Tailwind CSS:** Seleccionado por su enfoque utility-first que permite construir interfaces personalizadas rápidamente sin escribir CSS tradicional. Se integra perfectamente con Next.js y componentes React.
+- **shadcn/ui:** Utilizado como base para los componentes de UI. No es una librería de componentes tradicional, sino una colección de componentes reutilizables que se copian en el proyecto, permitiendo personalización total. Están construidos sobre Radix UI y Tailwind CSS, asegurando accesibilidad y consistencia.
+- **Zustand:** Elegido para la gestión de estado global (principalmente el carrito) por su simplicidad, rendimiento y mínima configuración en comparación con otras alternativas como Redux. Su middleware `persist` facilita la sincronización con `localStorage`.
+- **Framer Motion:** Incorporado para añadir animaciones y transiciones suaves que mejoran la experiencia de usuario sin sacrificar el rendimiento.
+- **Datos JSON Locales:** Para simular una API y poblar el catálogo de productos rápidamente, permitiendo enfocar el desarrollo en el frontend.
+
+## ✨ Extras Implementados
+
+Además de los requisitos mínimos, se implementaron las siguientes funcionalidades extra:
+
+- **Checkout Simulado:** Formulario con validación básica y resumen final de la compra.
+- **Modo Oscuro:** Toggle para cambiar entre tema claro y oscuro, con persistencia.
+- **Diseño 100% Responsivo:** Adaptación completa a diferentes tamaños de pantalla (mobile-first).
+- **Animaciones:** Microinteracciones y transiciones con Framer Motion.
+- **Gestión de Estado Avanzada:** Uso de Zustand para el carrito y persistencia.
+- **Componentes Reutilizables:** Buenas prácticas en la creación y uso de componentes.
+- **Datos Locales:** Productos cargados desde un archivo JSON.
+
+## ⏳ Mejoras Futuras (Si Tuviera Más Tiempo)
+
+- **Autenticación de Usuarios:** Implementar registro e inicio de sesión.
+- **Backend Real:** Conectar con una API real para productos y checkout.
+- **Filtros Avanzados:** Añadir más opciones de filtrado y ordenamiento en el catálogo.
+- **Pruebas Unitarias e Integración:** Añadir tests para asegurar la estabilidad.
+- **Optimización de Rendimiento:** Análisis más profundo con Lighthouse y optimizaciones adicionales.
+- **Internacionalización (i18n):** Soportar múltiples idiomas.
+
 ---
 
-Desarrollado con ❤️ por [Tu Nombre] 
+Desarrollado con ❤️ por [ lilieth chacon] 
